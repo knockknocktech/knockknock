@@ -9,7 +9,7 @@
 const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 const API_URL = isLocal 
   ? 'http://localhost:3001/api/leads' 
-  : 'https://knockknock-api.onrender.com/api/leads'; // Placeholder, user will replace if different
+  : 'https://knockknock-k8kh.onrender.com/api/leads';
 const WA_URL  = 'https://wa.me/918122280010?text=Hello%20KNOCKKNOCK%2C%0AI%20need%20doorstep%20mobile%20repair%20service.';
 
 /* ── UTILS ─────────────────────────────────────────────────── */
