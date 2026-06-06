@@ -365,7 +365,7 @@ section { padding: var(--sp-24) 0; }
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(15,23,42,0.5);
-  z-index: 999;
+  z-index: 1001;
   opacity: 0;
   visibility: hidden;
   transition: all var(--dur-base);
@@ -376,7 +376,7 @@ section { padding: var(--sp-24) 0; }
   top: 0; right: 0;
   width: min(360px, 90vw);
   height: 100%;
-  background: var(--white);
+  background: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url('assets/nav-bg.jpeg') center/cover no-repeat;
   box-shadow: var(--sh-xl);
   display: flex;
   flex-direction: column;
